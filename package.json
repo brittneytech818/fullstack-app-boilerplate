@@ -1,0 +1,13 @@
+{
+  "name": "fullstack-app-boilerplate",
+  "description": "A basic full-stack app boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Manuel Vila <hi@mvila.me>",
+  "license": "MIT",
+  "prettier": "@mvila/prettierrc",
+  "devDependencies": {
+    "@mvila/prettierrc": "^1.1.0",
+    "prettier": "^2.3.2"
+  }
+}
