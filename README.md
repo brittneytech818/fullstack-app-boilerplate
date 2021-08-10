@@ -7,10 +7,10 @@ A basic full-stack app boilerplate.
 Scaffold your app with the following commands:
 
 ```sh
-degit mvila/fullstack-app-boilerplate my-app
-cd my-app
-git init
-npm install
+npx degit mvila/fullstack-app-boilerplate my-app && \
+  cd my-app && \
+  git init && \
+  npm install
 ```
 
 ## Frontend
