@@ -1,5 +1,5 @@
-import {app} from './app';
+import {start} from './server';
 
-app().catch((err) => {
+start().catch((err) => {
   console.error(err);
 });
