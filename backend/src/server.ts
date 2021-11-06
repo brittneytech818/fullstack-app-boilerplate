@@ -1,7 +1,7 @@
 import fastify from 'fastify';
 import cors from 'fastify-cors';
 
-import {getFirstUser} from './db';
+import {getFirstUser} from './api/user';
 
 export async function start() {
   const server = fastify({logger: {prettyPrint: true}});

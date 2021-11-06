@@ -1,7 +1,7 @@
 import React from 'react';
 import {useQuery} from 'react-query';
 
-import {getFirstUser} from '../client';
+import {getFirstUser} from '../api/user';
 
 export function HelloWorld() {
   const {data: user, isLoading, error} = useQuery(['users', 'first'], getFirstUser);
@@ -16,7 +16,7 @@ export function HelloWorld() {
 
   return (
     <h1>
-      Hello, {user.firstName} {user.lastName}!
+      Hello, {user!.firstName} {user!.lastName}!
     </h1>
   );
 }
