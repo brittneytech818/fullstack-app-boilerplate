@@ -11,17 +11,18 @@
     "studio": "prisma studio --port 3002 --browser none"
   },
   "dependencies": {
-    "@prisma/client": "^2.28.0",
-    "fastify": "^3.20.1",
+    "@prisma/client": "^2.30.3",
+    "fastify": "^3.23.0",
     "fastify-cors": "^6.0.2",
     "lodash": "^4.17.21",
-    "pino-pretty": "^5.1.2"
+    "pino-pretty": "^5.1.3"
   },
   "devDependencies": {
-    "@types/node": "^16.4.13",
-    "nodemon": "^2.0.12",
-    "prisma": "^2.28.0",
-    "ts-node": "^10.2.0",
-    "typescript": "^4.3.5"
+    "@types/lodash": "^4.14.176",
+    "@types/node": "^16.11.6",
+    "nodemon": "^2.0.14",
+    "prisma": "^2.30.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   }
 }
